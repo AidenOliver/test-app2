@@ -11,7 +11,6 @@ const App = () => {
     <ContextProvider>
       <div className="App">
         <Nav />
-        <p>Hello</p>
         <Test />
         <Form />
       </div>

@@ -12,7 +12,8 @@ const Nav = () => {
           <p>{item.age}</p>
           <p>{item.hobbies}</p>
           <p>{item.title}</p>
-          <p>{item.job}</p>
+          <p>{item.jobType}</p>
+          <p>{item.games}</p>
         </div>
       ))}
     </div>

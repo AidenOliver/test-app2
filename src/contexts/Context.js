@@ -8,7 +8,8 @@ export const ContextProvider = (props) => {
         age: 21,
         hobbies: "coding, hacking, video games",
         title: "Software Developer",
-        job: "Freelance"
+        jobType: "Freelance",
+        games: "Halo"
     }])
 
   return (
