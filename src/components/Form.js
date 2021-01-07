@@ -25,7 +25,7 @@ const Form = () => {
 
     return (
         <div className="Form">
-            <div>{item.length}</div>
+            <div>{items.length}</div>
             <form onSubmit={handleSubmit}>
                 <input 
                     type="text"
