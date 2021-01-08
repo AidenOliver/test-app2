@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+// import {Button} from '@material-ui/core'
 
 const Form = () => {
     // input value state
@@ -23,6 +24,12 @@ const Form = () => {
         setItems(newItems)
     }
 
+    const removeItems = (index) => {
+        const newItems = [...items]
+        newItems.splice(index, 1)
+        setItems(newItems)
+    }
+
     return (
         <div className="Form">
             <div>{items.length}</div>
@@ -37,7 +44,11 @@ const Form = () => {
 
             <div className="items">
                 {items.map((item, idx) => (
-                    <div key={idx}>{item.text}</div>
+                    <div key={idx}>
+                        {item.text}
+                        {/* initiliaze remove function inside onClick with arrow function, pass in idx to removeItems*/}
+                        <button onClick={() => removeItems(idx)}>remove</button>
+                    </div>
                 ))}
             </div>
         </div>
