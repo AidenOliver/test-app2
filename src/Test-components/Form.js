@@ -46,7 +46,7 @@ const Form = () => {
                 {items.map((item, idx) => (
                     <div key={idx}>
                         {item.text}
-                        {/* initiliaze remove function inside onClick with arrow function, pass in idx to removeItems*/}
+                        {/* Inside onClick handler, initiliaze remove function via arrow function, pass in idx to removeItems*/}
                         <button onClick={() => removeItems(idx)}>remove</button>
                     </div>
                 ))}

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import {Context} from '../contexts/Context'
+import {Context} from '../Test-context/Context'
 
 const Nav = () => {
   const [items, setItems] = useContext(Context)
@@ -14,6 +14,7 @@ const Nav = () => {
           <p>{item.title}</p>
           <p>{item.jobType}</p>
           <p>{item.games}</p>
+          <p>{item.religious}</p>
         </div>
       ))}
     </div>

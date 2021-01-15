@@ -9,7 +9,8 @@ export const ContextProvider = (props) => {
         hobbies: "coding, hacking, video games",
         title: "Software Developer",
         jobType: "Freelance",
-        games: "Halo"
+        games: "Halo",
+        religious: false
     }])
 
   return (

@@ -1,9 +1,10 @@
 import React from 'react'
 import './App.css';
-import Nav from './components/Nav'
-import {ContextProvider} from './contexts/Context'
-import Test from './components/Test'
-import Form from './components/Form'
+import Nav from './Test-components/Nav'
+import {ContextProvider} from './Test-context/Context'
+import Test from './Test-components/Test'
+import Form from './Test-components/Form'
+import Search from './Test-components/Search'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Nav />
         <Test />
         <Form />
+        <Search />
       </div>
     </ContextProvider>
   );
