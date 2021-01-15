@@ -1,5 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react'
-// import {Context, ContextProvider} from '../Test-context/Context'
+import React, {useEffect, useState} from 'react'
 
 const Search = () => {
     // const [items, setItems] = useContext(Context)
