@@ -5,9 +5,9 @@ const Search = () => {
 
     // data
     const moreItems = [
-        "shoe",
-        "box",
-        "apple"
+        "first",
+        "second",
+        "third"
     ]
     // input state
     const [search, setSearch] = useState("")
@@ -28,6 +28,7 @@ const Search = () => {
     
     return (
             <div className="Search">
+                Search by String
                 <input 
                     type="text"
                     value={search}
